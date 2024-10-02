@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Busca de Jogos</legend>
+    <form>
+        <label for="nomeDoJogo">Nome do Jogo: </label><input type="text" name="nomeDoJogo" id="nomeDoJogo"><br>
+        <label for="dataLancamento">Data de Lançamento</label><input type="date" name="data" id="dataLancamento"><br>
+        <label for="plataforma">Plataforma: </label><input list="plataformas" name="plataforma" id="plataforma">
+                        <datalist id="plataformas">
+                            <option value="PC">PC</option>
+                            <option value="XBOX">Xbox Series S/X</option>
+                            <option value="PS5">Playstation 5</option>
+                        </datalist><br>
+        <button type="submit">Pesquisar!</button>
+    </form>
+    </fieldset>
+</body><!--minha humilde opinião: acho que usar label direto,viciadamente não ajuda muito, ainda mais relacionado a áreas de texto...-->
+</html>
